@@ -29,7 +29,7 @@ The goal is to analyze how long it will take to cool the wine to the desired tem
   - Bottle height: 40 cm
   - Diameter: 20 cm
 
-![image](https://github.com/user-attachments/assets/f7176a57-2294-4cfc-b621-415f1064a49e)
+<img src="https://github.com/user-attachments/assets/f7176a57-2294-4cfc-b621-415f1064a49e" alt="image" width="400"/>
 
 ## Assumptions
 
