@@ -62,11 +62,12 @@ The interface between the wine bottles and the freezer domain was a fluid-solid 
 
 Below are the vertical and horizontal section planes of the freezer with the wine bottles, illustrating the mesh structure.
 
-<img src="https://github.com/user-attachments/assets/f7176a57-2294-4cfc-b621-415f1064a49e" alt="Vertical section plane of the freezer with wine bottles" width="400"/>
+![image](https://github.com/user-attachments/assets/ec0e7024-cd5a-4172-adef-201b67193d24)
+
 
 _Figure 3: Vertical section plane of the freezer with wine bottles_
 
-<img src="https://github.com/user-attachments/assets/f7176a57-2294-4cfc-b621-415f1064a49e" alt="Horizontal section plane of the freezer with wine bottles" width="400"/>
+![image](https://github.com/user-attachments/assets/0dfea200-8754-491c-83bb-3ca66aebb74d)
 
 _Figure 4: Horizontal section plane of the freezer with wine bottles_
 
