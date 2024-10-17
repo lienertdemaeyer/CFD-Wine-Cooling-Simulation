@@ -261,47 +261,58 @@ _Figure 13: 3D visualization of vector plots of wine bottles on XZ-plane at \( y
 
 ## Ratio of Incoming Heat Flow Over Outgoing Heat Flow
 
-In this section, the ratio of the incoming heat flow to the outgoing heat flow was calculated. The heat flux is defined as the heat flow per unit area and is given by the equation:
+In this section, we calculate the ratio of the incoming heat flow to the outgoing heat flow. The heat flux is defined as the heat flow per unit area and is given by the equation:
 
 $$
-\text{heat flux} = \frac{\text{heat flow}}{\text{area}} \tag{4}
+\text{Heat flux} = \frac{\text{Heat flow}}{\text{Area}} \tag{4}
 $$
 
 Rearranging this yields the equation for heat flow:
 
 $$
-\text{heat flow} = \text{heat flux} \times \text{area} \tag{5}
+\text{Heat flow} = \text{Heat flux} \times \text{Area} \tag{5}
 $$
 
-The incoming heat flow represents all the heat entering the control volume, primarily through the surrounding air. Since the outside air is warmer than the freezer, heat flows into the freezer. Additionally, the wine bottles, being at a higher temperature than the air inside the freezer, contribute to heat flow into the surrounding air. The outgoing heat flow is driven by the evaporator, which is the only surface removing heat from the freezer.
+The incoming heat flow represents all the heat entering the control volume, primarily through the surrounding air. Since the outside air is warmer than the freezer, heat flows into the freezer. Additionally, the wine bottles, being at a higher temperature than the air inside the freezer, contribute to heat flow into the system. The outgoing heat flow is driven by the evaporator, which is the only surface removing heat from the freezer.
 
-### Heat Flow Calculation at \( t = 21600 \, s \)
+### Heat Flow Calculation at \( t = 21{,}600 \, \text{s} \)
 
-At \( t = 21600 \, s \), the heat flow was calculated using Ansys with the following expression:
+At \( t = 21{,}600 \, \text{s} \), the heat flow was calculated using Ansys with the following expression:
 
 $$
 \frac{
-\text{areaAve(HeatFlux)}@ \left( \text{left face} \times 0.605 \right) + \text{areaAve(HeatFlux)}@ \left( \text{right face} \times 0.605 \right) + \text{areaAve(HeatFlux)}@ \left( \text{front face} \times 0.55 \right) + \text{areaAve(HeatFlux)}@ \left( \text{top face} \times 0.275 \right) + \text{areaAve(HeatFlux)}@ \left( \text{wine bottle faces} \times 1.256 \right)
+\left[ \text{areaAve}(\text{HeatFlux}) @ \text{left face} \times 0.605 \right] + 
+\left[ \text{areaAve}(\text{HeatFlux}) @ \text{right face} \times 0.605 \right] + 
+\left[ \text{areaAve}(\text{HeatFlux}) @ \text{front face} \times 0.55 \right] + 
+\left[ \text{areaAve}(\text{HeatFlux}) @ \text{top face} \times 0.275 \right] + 
+\left[ \text{areaAve}(\text{HeatFlux}) @ \text{wine bottle faces} \times 1.256 \right]
 }{
-\text{areaAve(HeatFlux)}@ \left( \text{back face} \times 0.55 \right)
+\text{areaAve}(\text{HeatFlux}) @ \text{back face} \times 0.55
 }
 $$
 
-The areas of the different faces were multiplied by their respective heat flux values, and the area of the wine bottles was calculated as:
+The areas of the different faces were multiplied by their respective heat flux values to calculate the heat flow through each face. The area of the wine bottles was calculated as:
 
 $$
-A_{\text{wine bottles}} = \left( 2 \pi (0.1) (0.4) \right) + 2 \pi (0.1^2) 4
+\begin{align*}
+A_{\text{wine bottles}} &= 4 \times \left( 2 \pi r h + 2 \pi r^2 \right) \\
+&= 4 \times \left( 2 \pi (0.1\, \text{m})(0.4\, \text{m}) + 2 \pi (0.1\, \text{m})^2 \right) \\
+&= 4 \times \left(0.2513\, \text{m}^2 + 0.0628\, \text{m}^2\right) \\
+&= 4 \times 0.3141\, \text{m}^2 \\
+&= 1.2564\, \text{m}^2
+\end{align*}
 $$
 
 This results in a ratio of incoming heat flow to outgoing heat flow:
 
 $$
-\frac{\text{incoming heat flow}}{\text{outgoing heat flow}} = 0.1397 = \frac{139}{1000} \tag{6}
+\frac{\text{Incoming heat flow}}{\text{Outgoing heat flow}} = 0.1397 = \frac{139}{1000} \tag{6}
 $$
 
 ### Interpretation
 
 The ratio indicates that the evaporator is removing more heat than is entering the system. This is consistent with the temperature profiles discussed in Question 4, where the freezer's bulk fluid cools down over time. The evaporator effectively manages the heat flow, ensuring that the freezer remains colder than the surrounding environment.
+
 
 
 
