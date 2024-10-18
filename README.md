@@ -106,7 +106,7 @@ Where \( T \) is the temperature inside the freezer, and \( T_{out} \) is the en
 
 ### Graph of Outside Temperature vs Time
 
-<img src="https://github.com/user-attachments/assets/022269a9-f7a7-4801-8193-d6e24204c2e7" alt="outside temperature vs time" width="400"/>
+<img src="https://github.com/user-attachments/assets/022269a9-f7a7-4801-8193-d6e24204c2e7" alt="outside temperature vs time" width="500"/>
 
 _Figure 5: outside temperature vs time_
 
@@ -115,7 +115,7 @@ _Figure 5: outside temperature vs time_
 
 
 
-<img src="https://github.com/user-attachments/assets/66043696-7697-480f-a6ff-4de1197d649f" alt="mesh sensitivity analysis" width="400"/>
+<img src="https://github.com/user-attachments/assets/66043696-7697-480f-a6ff-4de1197d649f" alt="mesh sensitivity analysis" width="500"/>
 
 _Figure 6: mesh sensitivity analysis_
 
