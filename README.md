@@ -294,19 +294,25 @@ $$
 The areas of the different faces were multiplied by their respective heat flux values to calculate the heat flow through each face. The area of the wine bottles was calculated as:
 
 $$
-\begin{align*}
-A_{\text{wine bottles}} &= 4 \times \left( 2 \pi r h + 2 \pi r^2 \right) \\
-&= 4 \times \left( 2 \pi (0.1\, \text{m})(0.4\, \text{m}) + 2 \pi (0.1\, \text{m})^2 \right) \\
-&= 4 \times \left(0.2513\, \text{m}^2 + 0.0628\, \text{m}^2\right) \\
-&= 4 \times 0.3141\, \text{m}^2 \\
-&= 1.2564\, \text{m}^2
-\end{align*}
+A_{\text{wine bottles}} = 4 \times \left( 2 \pi r h + 2 \pi r^2 \right)
+$$
+
+Substituting the radius and height values:
+
+$$
+A_{\text{wine bottles}} = 4 \times \left( 2 \pi (0.1\, \text{m})(0.4\, \text{m}) + 2 \pi (0.1\, \text{m})^2 \right)
+$$
+
+Simplifying further:
+
+$$
+A_{\text{wine bottles}} = 4 \times \left(0.2513\, \text{m}^2 + 0.0628\, \text{m}^2\right) = 1.2564\, \text{m}^2
 $$
 
 This results in a ratio of incoming heat flow to outgoing heat flow:
 
 $$
-\frac{\text{Incoming heat flow}}{\text{Outgoing heat flow}} = 0.1397 = \frac{139}{1000} \tag{6}
+\frac{\text{Incoming heat flow}}{\text{Outgoing heat flow}} = 0.1397 = \frac{139}{1000}
 $$
 
 ### Interpretation
