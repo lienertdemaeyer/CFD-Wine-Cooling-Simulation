@@ -253,7 +253,7 @@ _Figure 11: Vector plot of bottom wine bottles on XZ-plane at \( y = 0.25 \, m \
 
 _Figure 12: Vector plot on YZ-plane at \( y = 0.7 \, m \) at \( t = 600 \, s \), \( t = 23600 \, s \), and \( t = 43200 \, s \)._
 
-![image](https://github.com/user-attachments/assets/931ae153-bb77-4b78-95ef-ed06192b02ce)
+<img src="https://github.com/user-attachments/assets/931ae153-bb77-4b78-95ef-ed06192b02ce" alt=" 3D visualization of vector plots of wine bottles on XZ-plane at \( y = 0.25 \, m \) and \( y = 0.70 \, m \) at \( t = 600 \, s \)." width="400"/>
 
 _Figure 13: 3D visualization of vector plots of wine bottles on XZ-plane at \( y = 0.25 \, m \) and \( y = 0.70 \, m \) at \( t = 600 \, s \)._
 
