@@ -198,7 +198,7 @@ At 6 o'clock, the volume average temperature for each bottle was recorded, and a
 | left bottom          | 13.84                           |
 | all                  | 14.03                           |
 
-_Table 2: Volume average temperature at 6 o'clock in \( ^\circ C \)._
+_Table 2: Volume average temperature at 6 o'clock in (°C)._
 
 ### Evolution of Volume Average Temperature
 
