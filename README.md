@@ -62,11 +62,11 @@ The interface between the wine bottles and the freezer domain was a fluid-solid 
 
 Below are the vertical and horizontal section planes of the freezer with the wine bottles, illustrating the mesh structure.
 
-<img src="https://github.com/user-attachments/assets/ec0e7024-cd5a-4172-adef-201b67193d24" alt="Vertical section plane of the freezer with wine bottles" width="300"/>
+<img src="https://github.com/user-attachments/assets/ec0e7024-cd5a-4172-adef-201b67193d24" alt="Vertical section plane of the freezer with wine bottles" width="400"/>
 
 _Figure 3: Vertical section plane of the freezer with wine bottles_
 
-<img src="https://github.com/user-attachments/assets/0dfea200-8754-491c-83bb-3ca66aebb74d" alt="Horizontal section plane of the freezer with wine bottles" width="300"/>
+<img src="https://github.com/user-attachments/assets/0dfea200-8754-491c-83bb-3ca66aebb74d" alt="Horizontal section plane of the freezer with wine bottles" width="400"/>
 
 _Figure 4: Horizontal section plane of the freezer with wine bottles_
 
@@ -106,7 +106,7 @@ Where \( T \) is the temperature inside the freezer, and \( T_{out} \) is the en
 
 ### Graph of Outside Temperature vs Time
 
-<img src="https://github.com/user-attachments/assets/022269a9-f7a7-4801-8193-d6e24204c2e7" alt="outside temperature vs time" width="300"/>
+<img src="https://github.com/user-attachments/assets/022269a9-f7a7-4801-8193-d6e24204c2e7" alt="outside temperature vs time" width="400"/>
 
 _Figure 5: outside temperature vs time_
 
@@ -115,7 +115,7 @@ _Figure 5: outside temperature vs time_
 
 
 
-<img src="https://github.com/user-attachments/assets/66043696-7697-480f-a6ff-4de1197d649f" alt="mesh sensitivity analysis" width="300"/>
+<img src="https://github.com/user-attachments/assets/66043696-7697-480f-a6ff-4de1197d649f" alt="mesh sensitivity analysis" width="400"/>
 
 _Figure 6: mesh sensitivity analysis_
 
@@ -204,7 +204,7 @@ _Table 2: Volume average temperature at 6 o'clock in \( ^\circ C \)._
 
 The graph below shows the evolution of the volume average temperature for each bottle over time. The bottom right bottle, being closest to the evaporator, cools the fastest, while the top left bottle cools the slowest.
 
-<img src="https://github.com/user-attachments/assets/d975cca9-15ba-4e63-9842-699e27415f5c" alt="Volume average temperature \([^\circ C]\) vs time \([s]\)" width="300"/>
+<img src="https://github.com/user-attachments/assets/d975cca9-15ba-4e63-9842-699e27415f5c" alt="Volume average temperature \([^\circ C]\) vs time \([s]\)" width="400"/>
 
 _Figure 9: Volume average temperature \([^\circ C]\) vs time \([s]\)._
 
