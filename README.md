@@ -275,7 +275,7 @@ $$
 
 The incoming heat flow represents all the heat entering the control volume, primarily through the surrounding air. Since the outside air is warmer than the freezer, heat flows into the freezer. Additionally, the wine bottles, being at a higher temperature than the air inside the freezer, contribute to heat flow into the system. The outgoing heat flow is driven by the evaporator, which is the only surface removing heat from the freezer.
 
-### Heat Flow Calculation at \( t = 21{,}600 \, \text{s} \)
+### Heat Flow Calculation
 
 At \( t = 21{,}600 \, \text{s} \), the heat flow was calculated using Ansys with the following expression:
 
