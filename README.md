@@ -2,6 +2,13 @@
 
 This repository contains the analysis and modeling of a heat transfer problem in a freezer system. The scenario involves cooling bottles of wine using a small freezer, accounting for various environmental and thermal properties.
 
+## Download ANSYS Files
+
+The ANSYS simulation files for this project can be downloaded via the following link:
+
+[Download ANSYS Files](https://drive.google.com/drive/folders/1Np5yVJyccr44lheup9WEbBbWogDBhRfJ?usp=drive_link)
+
+
 ## Problem Overview
 The system includes:
 - A freezer with an evaporator cooling capacity of 100 W.
