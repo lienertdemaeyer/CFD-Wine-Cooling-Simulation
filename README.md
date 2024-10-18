@@ -264,13 +264,13 @@ _Figure 13: 3D visualization of vector plots of wine bottles on XZ-plane at \( y
 In this section, we calculate the ratio of the incoming heat flow to the outgoing heat flow. The heat flux is defined as the heat flow per unit area and is given by the equation:
 
 $$
-\text{Heat flux} = \frac{\text{Heat flow}}{\text{Area}} \tag{4}
+\text{Heat flux} = \frac{\text{Heat flow}}{\text{Area}}
 $$
 
 Rearranging this yields the equation for heat flow:
 
 $$
-\text{Heat flow} = \text{Heat flux} \times \text{Area} \tag{5}
+\text{Heat flow} = \text{Heat flux} \times \text{Area}
 $$
 
 The incoming heat flow represents all the heat entering the control volume, primarily through the surrounding air. Since the outside air is warmer than the freezer, heat flows into the freezer. Additionally, the wine bottles, being at a higher temperature than the air inside the freezer, contribute to heat flow into the system. The outgoing heat flow is driven by the evaporator, which is the only surface removing heat from the freezer.
