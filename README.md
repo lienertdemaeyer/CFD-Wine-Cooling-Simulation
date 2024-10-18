@@ -204,7 +204,7 @@ _Table 2: Volume average temperature at 6 o'clock in \( ^\circ C \)._
 
 The graph below shows the evolution of the volume average temperature for each bottle over time. The bottom right bottle, being closest to the evaporator, cools the fastest, while the top left bottle cools the slowest.
 
-![image](https://github.com/user-attachments/assets/d975cca9-15ba-4e63-9842-699e27415f5c)
+<img src="https://github.com/user-attachments/assets/d975cca9-15ba-4e63-9842-699e27415f5c" alt="Volume average temperature \([^\circ C]\) vs time \([s]\)" width="300"/>
 
 _Figure 9: Volume average temperature \([^\circ C]\) vs time \([s]\)._
 
